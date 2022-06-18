@@ -1,11 +1,28 @@
-<div class="comments">
-  <a href="https://nx.dev/using-nx/console#nx-console-for-vscode">ng console to generate things</a>
-  <p>html to react</p>
-  <p>DUMB components: easy to test</p>
+<nb-layout>
 
-</div>
+  <nb-layout-header fixed>
+  <!-- Insert header here -->
+  </nb-layout-header>
 
-<div class="container">
-  <app-board></app-board>
-  <router-outlet></router-outlet>
-</div>
+  <nb-layout-column>
+
+
+    <div class="container">
+      <app-board></app-board>
+      <router-outlet></router-outlet>
+    </div>
+    <div class="comments">
+      <a href="https://nx.dev/using-nx/console#nx-console-for-vscode">ng console to generate things</a>
+      <p>html to react</p>
+      <p>DUMB components: easy to test</p>
+      <a href="https://akveo.github.io/nebular/">Nebular: Customizable Angular UI Kit</a>
+      <p>why font-size of buttons X | O not changed?</p>
+    </div>
+
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+  <!-- Insert footer here -->
+  </nb-layout-footer>
+
+</nb-layout>
